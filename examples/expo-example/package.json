@@ -7,7 +7,7 @@
     "android": "STORYBOOK_ENABLED=true expo start --android",
     "ios": "STORYBOOK_ENABLED=true expo start --ios",
     "web": "STORYBOOK_ENABLED=true expo start --web",
-    "storybook": "STORYBOOK_ENABLED=true expo start -c",
+    "storybook": "STORYBOOK_ENABLED=true expo start -c --go",
     "storybook:web": "storybook dev -p 6006 -c ./.storybook-web",
     "build-web-storybook": "storybook build -c ./.storybook-web",
     "storybook-generate": "sb-rn-get-stories --config-path=./.storybook",
